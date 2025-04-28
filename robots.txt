@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uloansfinance.com.au/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 10
+
+# Allow important directories
+Allow: /services/
+Allow: /blog/
+Allow: /latest-updates/
+Allow: /about/
+Allow: /contact/
+
+# Prevent duplicate content
+Disallow: /*?*
+Disallow: /*?
